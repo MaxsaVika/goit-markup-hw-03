@@ -44,8 +44,6 @@ body{
    padding-left: 15px;
    padding-right: 15px;
 
-
-   /* outline: 1px solid red; */
 }
 
 .list{
@@ -71,6 +69,8 @@ a{
    align-items: center;
 }
 
+/* ЛОГОТИП */
+
 .logo{
    font-family: 'Raleway', sans-serif; 
    font-size: 26px;
@@ -81,6 +81,8 @@ a{
 .logo-web{
 color: var(--accent-color);
 }
+
+/* НАВИГАЦИЯ */
 
 .nav-list{
    display: flex;
@@ -135,7 +137,7 @@ color: var(--accent-color);
    color: var(--primary-text-color);
 }
 
-/* герой */
+/* HERO */
 
 .hero{
    text-align: center;
@@ -186,6 +188,17 @@ color: var(--accent-color);
 
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 .features-list{
    display: flex;
 }
@@ -219,11 +232,6 @@ color: var(--accent-color);
 
 }
 
-.service-list{
-   display: flex;
-   justify-content: space-between;
-}
-
 .section-title{
    margin-top: 0;
    margin-bottom: 50px;
@@ -232,6 +240,15 @@ color: var(--accent-color);
    line-height: 1.17;
    text-align: center;
    color: var(--title-text-color);
+}
+
+.service-list{
+   display: flex;
+   justify-content: space-between;
+}
+
+.service-item img{
+   display: block;
 }
 
 /* Наша команда */
@@ -244,15 +261,19 @@ color: var(--accent-color);
    display: flex;
    justify-content: space-between;
 }
-
 .team-img{
-   margin-bottom: 30px;
+   display: block;
+}
+
+.team-name{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   text-align: center;
 }
 
 .team-list .title{
    margin-top: 0;
    margin-bottom: 10px;
-   text-align: center;
 
    font-weight: 500;
    font-size: 16px;
@@ -266,17 +287,11 @@ color: var(--accent-color);
    border-radius: 0px 0px 4px 4px;
 }
 
-/* .team-item:not(:last-child){
-   margin-right: 30px;
-} */
-
 .team-item-profile{
-   margin-top: 0;
-   margin-bottom: 30px;
+   margin: 0;
 
    font-size: 16px;
    line-height: 1.19;
-   text-align: center;
 }
 
 
@@ -299,6 +314,10 @@ color: var(--accent-color);
    font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
+}
+
+.footer-list li:not(:last-child){
+   margin-bottom: 9px;
 }
 
 .address-link{
