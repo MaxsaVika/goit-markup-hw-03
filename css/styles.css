@@ -394,13 +394,13 @@ color: var(--accent-color);
 .project-list-item{
    width: 370px;
    margin: 15px;
-   
-   border: 1px solid #EEEEEE;
-   border-top: none;
 }
 
 .project-text{
    padding: 20px 24px;
+
+   border: 1px solid #EEEEEE;
+   border-top: none;
 }
 
 .project-list .title{
