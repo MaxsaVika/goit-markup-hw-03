@@ -98,9 +98,12 @@ color: var(--accent-color);
 
 /* НАВИГАЦИЯ */
 
+.nav-main{
+   margin-left: 93px;
+}
+
 .nav-list{
    display: flex;
-   margin-left: 93px;
 }
 
 .nav-link{
@@ -154,13 +157,16 @@ color: var(--accent-color);
 /* HERO */
 
 .hero{
+   padding-top: 200px;
+   padding-bottom: 200px;
+  
    text-align: center;
-
    background-color: var(--footer-bg-color);
 }
 
 .hero-title{
-   margin: 0;
+   width: 696px;
+   margin: 0 auto;
    margin-bottom: 30px;
 
    font-weight: 900;
